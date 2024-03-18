@@ -22,6 +22,7 @@ function AddTask() {
         setDescription('');
         setDueDate('');
         setStatus('Uncompleted');
+        alert("Task added in list")
     }
 
     return (
@@ -73,7 +74,7 @@ function AddTask() {
                             className="w-full mt-1 px-3 py-2 border rounded-md text-sm leading-tight focus:outline-none focus:border-blue-500"
                         >
                             <option value="Uncompleted">Uncompleted</option>
-                            <option value="Completed">Completed</option>
+                            {/* <option value="Completed">Completed</option> */}
                         </select>
                     </div>
                     <button
